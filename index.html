@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Don't Stop at the Graph — SUNY Oswego presentation, Python starter applications, and educator resources.">
+<title>Don't Stop at the Graph | Presentation Resources</title>
+<style>
+:root{--ink:#1d232c;--muted:#596473;--blue:#1685d2;--navy:#172d46;--line:#dce2e8;--pale:#f3f8fc;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--white);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.5}
+a{color:#126cb2}a:focus-visible,button:focus-visible{outline:3px solid #68b6ef;outline-offset:4px}
+.container{width:min(1110px,calc(100% - 44px));margin:auto}
+header{border-bottom:1px solid var(--line);background:white}
+nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-weight:800;letter-spacing:-.03em;color:var(--navy);text-decoration:none;font-size:1.05rem}
+.navlinks{display:flex;gap:25px;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted);font-size:.92rem;font-weight:600}
+.hero{padding:82px 0 70px}.eyebrow{text-transform:uppercase;color:#1675be;font-size:.78rem;font-weight:800;letter-spacing:.11em}
+h1{font-size:clamp(2.7rem,6.5vw,5rem);line-height:1.06;letter-spacing:-.055em;margin:18px 0 15px;color:#1a2029}
+.lead{font-size:clamp(1.2rem,2.6vw,1.6rem);color:var(--muted);max-width:780px;margin:0 0 20px}
+.byline{color:#536274;font-weight:600}.accent{height:6px;width:110px;border-radius:20px;background:var(--blue);margin:30px 0}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:9px;text-decoration:none;font-weight:750;min-height:47px;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 5px 20px #173b5a18}
+.primary{background:var(--blue);color:white}.secondary{border:1px solid #b9c9d8;color:var(--navy);background:white}
+.disabled{background:#edf1f4;color:#56616e;cursor:not-allowed;border:1px solid #d6dee5}
+.note{color:var(--muted);font-size:.9rem;margin-top:13px}
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.04em;margin:0 0 8px}
+.subhead{color:var(--muted);font-size:1.12rem;margin:0 0 32px}
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.feature{padding:10px 32px 10px 0}.feature+.feature{border-left:2px solid var(--line);padding-left:32px}
+.feature h3{font-size:1.45rem;letter-spacing:-.03em;margin:12px 0 25px}
+.icon{width:42px;height:42px;color:var(--blue)}.small-label{font-size:.8rem;font-weight:800;color:#216bb1;text-transform:uppercase;letter-spacing:.04em}
+.feature .start{font-size:1.18rem;font-weight:750;margin:13px 0 24px;min-height:55px}
+.feature p{color:#59616d;margin:0 0 8px}.concept{color:#1d72bd;font-size:.95rem}
+.callout{font-weight:800;font-size:clamp(1.2rem,2.5vw,1.8rem);margin-top:44px;letter-spacing:-.02em}
+.soft{background:#f6f9fc}
+.demo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.demo{border:1px solid var(--line);border-radius:12px;padding:23px;background:white}
+.demo .arrow{font-size:1.1rem;font-weight:700;color:var(--blue);margin-top:9px}
+.demo p{color:var(--muted);margin-bottom:0}
+.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.resource{padding:27px;border:1px solid var(--line);border-radius:12px;background:white}
+.resource h3{margin:0 0 9px;font-size:1.25rem}.resource p{color:var(--muted);margin:0 0 18px}
+.chip{display:inline-block;background:#eaf4fc;color:#176eaf;font-size:.75rem;font-weight:800;border-radius:5px;padding:4px 8px;margin-bottom:12px}
+footer{background:var(--navy);color:#e8eff7;padding:45px 0}footer a{color:#b6dcff}
+footer p{color:#c4d0dd}
+code{background:#edf4fa;padding:2px 6px;border-radius:4px}
+@media(max-width:740px){nav{align-items:flex-start;padding:18px 0;flex-direction:column}.navlinks{gap:17px}.hero{padding:55px 0}.three,.demo-grid,.resource-grid{grid-template-columns:1fr}.feature,.feature+.feature{padding:22px 0;border-left:0;border-top:1px solid var(--line)}.feature:first-child{border-top:0}.feature .start{min-height:0;margin-bottom:12px}section{padding:45px 0}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav aria-label="Main navigation">
+<a class="brand" href="#top">DON'T STOP AT THE GRAPH <span style="color:var(--blue)">/</span></a>
+<div class="navlinks"><a href="#starter-apps">Starter Apps</a><a href="#resources">Downloads</a><a href="#contact">Contact</a></div>
+</nav></div></header>
+<main id="top">
+<div class="container hero">
+<div class="eyebrow">SUNY Oswego · October 29, 2026 · Presentation Resources</div>
+<h1>Don't Stop<br>at the Graph<span style="color:var(--blue)">.</span></h1>
+<p class="lead">Taking Vernier sensor data into engineering and computer science.</p>
+<p class="byline">Mike Amante · Technology Education</p>
+<div class="accent"></div>
+<p style="max-width:730px;font-size:1.13rem">What happens when students go beyond collecting data—and start building systems that <strong>interpret measurements, make decisions, and act?</strong></p>
+<div class="actions"><a class="btn primary" href="https://drive.google.com/file/d/1-rJkVbvvdV4JBZ1JRh4a1RdyUtZ-wYgy/view?usp=sharing" target="_blank" rel="noopener noreferrer">Get the Starter Kit</a><a class="btn secondary" href="#resources">View Presentation Resources</a></div>
+</div>
+<section class="soft" id="demonstrations"><div class="container">
+<div class="eyebrow">Featured demonstrations</div>
+<h2>Three sensors. Three real-world interactions.</h2>
+<p class="subhead">Applications showcased during the presentation—not included as downloads.</p>
+<div class="demo-grid">
+<div class="demo"><strong>LumaLight</strong><div class="arrow">LIGHT → ADAPT</div><p>Ambient light measurements adjust a virtual ring-light interface.</p></div>
+<div class="demo"><strong>RoomPulse</strong><div class="arrow">SOUND → RESPOND</div><p>Sound measurements become meaningful classroom feedback.</p></div>
+<div class="demo"><strong>ForceDeck</strong><div class="arrow">FORCE → CONTROL</div><p>Grip-force measurements become slide navigation commands.</p></div>
+</div></div></section>
+<section id="starter-apps"><div class="container">
+<div class="eyebrow">Your turn</div>
+<h2>Explore the Starter Apps</h2>
+<p class="subhead">Three simple Python projects to explore, modify, and extend.</p>
+<div class="three">
+<div class="feature">
+<svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 25h9l6-15 8 30 6-15h11"/></svg>
+<h3>Sensor Reader</h3><div class="small-label">Start with</div><div class="start">Live simulated readings</div>
+<p>Observe changing light values in the terminal and explore how sensor input works.</p><div class="concept">Variables + loops</div>
+</div>
+<div class="feature">
+<svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M5 11h38M5 24h38M5 37h38"/><circle cx="17" cy="11" r="5" fill="white"/><circle cx="32" cy="24" r="5" fill="white"/><circle cx="20" cy="37" r="5" fill="white"/></svg>
+<h3>Decision Maker</h3><div class="small-label">Start with</div><div class="start">Classifying measurements</div>
+<p>Use a Tkinter interface to change sound thresholds and see how decisions affect output.</p><div class="concept">Conditionals + parameters</div>
+</div>
+<div class="feature">
+<svg class="icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 5v36h36M12 32l11-12 8 5 11-16"/></svg>
+<h3>Data Logger</h3><div class="small-label">Start with</div><div class="start">Graphing and CSV export</div>
+<p>Collect simulated grip-force readings, graph trends in PySide6, and export data for analysis.</p><div class="concept">Lists + functions</div>
+</div>
+</div><div class="callout">Start with simulation. Modify a decision. Test the result.</div>
+</div></section>
+<section class="soft" id="resources"><div class="container">
+<div class="eyebrow">Download and explore</div><h2>Presentation & Classroom Resources</h2>
+<p class="subhead">Everything you need to take the ideas back to your classroom.</p>
+<div class="resource-grid">
+<div class="resource"><span class="chip">READY TO DOWNLOAD</span><h3>Python Starter Kit</h3><p>Three simulation-based starter projects, handouts, sample CSV datasets, and setup instructions, hosted on Google Drive.</p><a class="btn primary" href="https://drive.google.com/file/d/1-rJkVbvvdV4JBZ1JRh4a1RdyUtZ-wYgy/view?usp=sharing" target="_blank" rel="noopener noreferrer">Open Starter Kit</a></div>
+<div class="resource"><span class="chip">VIEW PRESENTATION</span><h3>Presentation Deck</h3><p>Open the Google Slides deck from the SUNY Oswego session.</p><a class="btn secondary" href="https://docs.google.com/presentation/d/1Vk32zUTgfMkKa-f7aPj6Pi65FOGBYg9QfY98KofVIiY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View Presentation Slides</a></div>
+</div>
+<p class="note">The starter projects use artificial measurements and do not require Vernier hardware. The full showcased applications are not part of the download.</p>
+</div></section>
+<section><div class="container">
+<div class="eyebrow">The central idea</div><h2>From evidence to action</h2>
+<p class="lead">Measure → Graph → Analyze → Build → Test → Improve</p>
+<p style="font-size:1.13rem;max-width:840px"><strong>Use a graph when the learning objective is to analyze evidence.</strong> Build a responsive system when the objective is to act on evidence. Both belong in technology, engineering, and computer science education.</p>
+</div></section>
+</main>
+<footer id="contact"><div class="container">
+<div class="eyebrow" style="color:#9bd1fa">Keep the conversation going</div>
+<h2>Questions, ideas, or classroom collaborations?</h2>
+<p>Mike Amante · Technology Education</p>
+<a href="mailto:mamante@gmail.com" style="font-size:1.2rem;font-weight:750">mamante@gmail.com</a>
+<p style="margin-top:38px;font-size:.84rem">SUNY Oswego Fall Technology Conference · October 29, 2026</p>
+</div></footer>
+</body></html>
